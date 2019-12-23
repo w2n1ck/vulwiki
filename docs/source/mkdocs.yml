@@ -1,0 +1,18 @@
+site_name: 漏洞知识库
+
+nav:
+    - Home: 'index.md'
+    - web安全:
+        - 'SQL注入': 'web/sql.md'
+        - 'cslf': 'web/csrf.md'
+    - 安卓客户端:
+        - 'XSS': 'web/xss.md'
+        - 'XSS': 'web/xss.md'
+
+theme: readthedocs
+
+repo_url: https://github.com/w2n1ck/vulwiki/
+
+site_description: 常见漏洞知识库, wiki, 漏洞wiki, 漏洞手册
+
+site_author: 瓦都剋

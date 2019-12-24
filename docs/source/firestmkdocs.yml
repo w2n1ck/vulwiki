@@ -15,21 +15,11 @@ copyright: 'Copyright &copy; 2019 瓦都剋'
 nav:
     - Home: 'index.md'
     - 1. Web安全漏洞:
-        - '1.1 SQL注入漏洞': 'web/sql.md'
-        - '1.2 跨站脚本漏洞': 'web/xss.md'
-        - '1.3 服务端请求伪造漏洞': 'web/ssrf.md'
-        - '1.4 跨站请求伪造漏洞': 'web/csrf.md'
-        - '1.5 文件操作漏洞':
-            - '1.5.1 任意格式文件上传': 'web/fileupload.md'
-            - '1.5.2 任意文件读取/包含/删除': 'web/fileinclude.md'
-        - '1.6 命令执行漏洞': 'web/oscommandexec.md'
-        - '1.7 目录浏览漏洞': 'web/dirtraversal.md'
-        - '1.8 XML实体注入漏洞': 'web/xxe.md'
-        - '1.9 服务端模版注入漏洞': 'web/ssti.md'
-        - '1.10 开放重定向漏洞': 'web/urlre.md'
+        - '1.1 SQL注入': 'web/sql.md'
+        - '1.2 cslf': 'web/csrf.md'
     - 2. 安卓客户端漏洞:
-        - '2.1 反编译': 'web/sql.md'
-        - '2.2 硬编码': 'web/sql.md'
+        - '2.1 XSS': 'web/xss.md'
+        - '2.2 XSS': 'web/xss.md'
 
 theme: readthedocs
 

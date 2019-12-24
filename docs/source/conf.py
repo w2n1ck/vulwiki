@@ -28,7 +28,7 @@ def setup(app):
 # -- Project information -----------------------------------------------------
 
 project = 'vulwiki'
-copyright = '2019, 瓦都剋'
+copyright = 'Copyright &copy; 2019 瓦都剋'
 author = '瓦都剋'
 
 # The full version, including alpha/beta/rc tags
@@ -40,7 +40,10 @@ release = '1.0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = [
+    'sphinx.ext.todo',
+    'sphinx.ext.ifconfig'
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -57,6 +60,8 @@ language = 'zh_CN'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+pygments_style = 'sphinx'
+todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 

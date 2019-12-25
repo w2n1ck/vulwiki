@@ -95,11 +95,3 @@ theme:
 extra:
     search:
     copyright: 'CC BY-NC-SA 4.0'
-
-# Extensions
-markdown_extensions:
-    #高亮
-    - codehilite(css_class=code)
-    - admonition
-    - toc:
-        permalink: '#'

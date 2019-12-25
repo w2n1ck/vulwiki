@@ -1,0 +1,105 @@
+# Project Information
+site_name: 漏洞知识库
+site_description: 常见漏洞知识库, wiki, 漏洞wiki, 漏洞手册
+site_author: 瓦都剋
+site_url: https://vulwiki.readthedocs.io/zh_CN/latest/
+
+# Repository
+repo_name: '漏洞知识库'
+repo_url: 'https://github.com/w2n1ck/vulwiki/'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 瓦都剋'
+
+# Contents
+nav:
+    - Home: 'index.md'
+    - 1. Web安全漏洞:
+        - '1.1 SQL注入漏洞': 'web/sql.md'
+        - '1.2 跨站脚本漏洞': 'web/xss.md'
+        - '1.3 服务端请求伪造漏洞': 'web/ssrf.md'
+        - '1.4 跨站请求伪造漏洞': 'web/csrf.md'
+        - 1.5 文件操作漏洞:
+            - '1.5.1 任意格式文件上传': 'web/fileupload.md'
+            - '1.5.2 任意文件读取/包含/删除': 'web/fileinclude.md'
+        - '1.6 命令执行漏洞': 'web/oscommandexec.md'
+        - '1.7 目录浏览漏洞': 'web/dirtraversal.md'
+        - '1.8 XML实体注入漏洞': 'web/xxe.md'
+        - '1.9 服务端模版注入漏洞': 'web/ssti.md'
+        - '1.10 开放重定向漏洞': 'web/urlre.md'
+        - 1.11 管理工具信息泄漏:
+            - '1.11.1 SVN信息泄漏': 'web/svn.md'
+            - '1.11.2 Git信息泄漏': 'web/git.md'
+            - '1.11.3 DS_Store信息泄漏': 'web/ds_store.md'
+        - '1.12 弱口令漏洞': 'web/weakpass.md'
+        - '1.13 HTTP请求头注入漏洞': 'web/crlf.md'
+        - '1.14 错误信息泄漏漏洞': 'web/errorinfo.md'
+        - '1.15 HTTP参数污染漏洞': 'web/hpp.md'
+        - '1.16 测试数据泄漏漏洞': 'web/test.md'
+        - 1.17 逻辑漏洞:
+            - '1.17.1 接口未授权访问漏洞': 'web/apiunauth.md'
+            - '1.17.2 越权操作漏洞': 'web/yuequan.md'
+            - '1.17.3 支付模块漏洞': 'web/pay.md'
+            - '1.17.4 用户模块漏洞': 'web/usercenter.md'
+            - '1.17.5 验证码模块漏洞': 'web/yanzheng.md'
+    - 2. 安卓客户端:
+        - '2.1 客户端程序安全':
+            - '2.1.1 反编译': 'android/fanbianyi.md'
+            - '2.1.2 安装包签名': 'android/sign.md'
+            - '2.1.3 应用完整性': 'android/integrity.md'
+            - '2.1.4 任意数据备份': 'android/allowbackup.md'
+            - '2.1.5 程序可被调试': 'android/debuggable.md'
+        - '2.2 运行环境安全':
+            - '2.2.1 Root环境': 'android/root.md'
+            - '2.2.2 模拟器环境': 'android/moniqi.md'
+            - '2.2.3 代理网络环境': 'android/proxy.md'
+        - '2.3 敏感信息安全':
+            - '2.3.1 SQLite敏感信息': 'android/sqliteinfo.md'
+            - '2.3.2 LogCat敏感信息': 'android/logcat.md'
+            - '2.3.3 硬编码敏感信息': 'android/info.md'
+        - '2.4 网络通信安全':
+            - '2.4.1 通信加密': 'android/aes.md'
+        - '2.5 安全策略设置':
+            - '2.5.1 键盘记录': 'android/keyboard.md'
+    - 3. 其他安全设置:
+        - '3.1 安全组': 'setting/secgroup.md'
+        - '3.2 数据库':
+            - '3.2.1 MySQL': 'db/update.md'
+            - '3.2.2 Redis': 'db/update.md'
+        - '3.3 第三方组件': 'setting/middleware.md'
+        - '3.4 中间件':
+            - '3.4.1 Apache': 'middleware/update.md'
+            - '3.4.2 Nginx': 'middleware/update.md'
+            - '3.4.3 Tomcat': 'middleware/update.md'
+            - '3.4.4 Spring': 'middleware/update.md'
+            - '3.4.5 Elasticsearch': 'middleware/update.md'
+            - '3.4.6 Hadoop': 'middleware/update.md'
+            - '3.4.7 Docker': 'middleware/update.md'
+
+# Theme
+theme:
+    name: 'mkdocs'
+    language: 'zh'
+    palette:
+        primary: 'white'
+        accent: 'red'
+    logo:
+        icon: 'school'
+    feature:
+        tabs: true
+    font:
+        text: 'Noto Sans'
+        code: 'Source Code Pro'
+
+# Customization
+extra:
+    search:
+    copyright: 'CC BY-NC-SA 4.0'
+
+# Extensions
+markdown_extensions:
+    #高亮
+    - codehilite(css_class=code)
+    - admonition
+    - toc:
+        permalink: '#'

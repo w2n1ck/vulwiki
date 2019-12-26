@@ -29,6 +29,4 @@
 
 ➡️ mail: admin@w2n1ck.com
 
-➡️ weibo: 瓦都尅
-
 ------

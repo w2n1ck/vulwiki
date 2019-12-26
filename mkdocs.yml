@@ -75,6 +75,7 @@ nav:
             - '3.4.5 Elasticsearch': 'middleware/update.md'
             - '3.4.6 Hadoop': 'middleware/update.md'
             - '3.4.7 Docker': 'middleware/update.md'
+        - '3.5 如何设计一个安全的对外接口': 'setting/secapi.md'
 
 # Theme
 theme:

@@ -25,5 +25,3 @@
 [Android模拟器检测体系梳理]([https://www.wireghost.cn/2018/05/10/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%A3%80%E6%B5%8B%E4%BD%93%E7%B3%BB%E6%A2%B3%E7%90%86/](https://www.wireghost.cn/2018/05/10/Android模拟器检测体系梳理/))
 
 [检测Android虚拟机的方法和代码实现](https://bbs.pediy.com/thread-225717.htm)
-
-![](https://bbs.pediy.com/upload/attach/201804/722644_2SENQ6BYYPSXAH8.png)

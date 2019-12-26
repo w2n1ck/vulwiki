@@ -31,8 +31,4 @@
 
 ➡️ weibo: 瓦都尅
 
-**root@userInfo:~# fim -a 安全泰式柑汁.jpg**
-
-![img](http://www.w2n1ck.com/static/img/wxgzh.jpg)
-
 ------

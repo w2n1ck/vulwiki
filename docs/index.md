@@ -18,15 +18,3 @@
 本文的均为作者手打，部分内容摘录自互联网，如有侵权请联系作者删除。
 
 ------
-
-### 0x02 关于作者
-
-**root@userInfo:~# whoami**
-
-➡️ 瓦都尅
-
-**root@userInfo:~# cat find_me**
-
-➡️ mail: admin@w2n1ck.com
-
-------
